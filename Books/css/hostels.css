@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  height: 50px;
+  position: relative;
+  margin: 0 0 0 0;
+}
+
+button {
+  border: none;
+  width: 75px;
+  height: 25px;
+  background-color: #55acee;
+  border: 1px solid grey;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    font-size: 18px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+.job-card {
+  height: 225px;
+  width: 60%;
+  border: 1px solid gold;
+  border-radius: 5px;
+  margin: 10px auto 20px;
+  padding: 10px;
+box-shadow: 15px 15px 11px 0px rgba(0,0,0,0.07);
+}
+.hostel-card {
+  height: 225px;
+  width: 60%;
+  border: 1px solid gold;
+  border-radius: 5px;
+  margin: 10px auto 20px;
+  padding: 10px;
+box-shadow: 15px 15px 11px 0px rgba(0,0,0,0.07);
+}
+
+
+.title {
+    text-align: center;
+    margin: 10px auto 30px;
+    font-weight: bold;
+}
+
+.hostel-img {
+  margin-right: 10px;
+  float: left;
+}
+
+.hostel-name {
+  margin-top: 0;
+}
+
+#cancel-reg-btn{
+	margin-left: 5px;
+	margin-top: 24px;
+	background: none;
+	color: red;
+	border: none;
+}
+#jobs-filter {
+    background: #FFF;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 0px #CCC;
+    padding: 12px;
+    border-radius: 5px;
+}
